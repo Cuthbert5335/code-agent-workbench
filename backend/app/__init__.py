@@ -1,0 +1,2 @@
+"""CodeXXX FastAPI application package."""
+

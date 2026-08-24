@@ -1,0 +1,18 @@
+[
+  {
+    "id": "project-structure",
+    "question": "解释项目结构，并指出后端入口文件。",
+    "expected_references": ["backend/app/main.py"],
+    "answer_keywords": ["FastAPI", "main.py"],
+    "allow_modification": false,
+    "expected_validation": false
+  },
+  {
+    "id": "safe-patch-review",
+    "question": "检查配置读取逻辑，并给出一个只修改现有文件的补丁建议。",
+    "expected_references": ["backend/app/config.py"],
+    "answer_keywords": ["配置", "补丁"],
+    "allow_modification": true,
+    "expected_validation": true
+  }
+]

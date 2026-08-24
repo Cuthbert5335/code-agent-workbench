@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+agent-trajectories*.json
+evaluation-report*.json
+coverage.xml
+htmlcov/
+.coverage
+.DS_Store
+Thumbs.db
+
+# Internal development handoff contains local paths and agent-only notes.
+docs/handoff.md
+
+# Local editor and operating-system files.
+.idea/
+.vscode/
+backend/data/

@@ -1,5 +1,7 @@
 # CodeXXX
 
+> Local-first, self-hosted code analysis and development Agent workbench.
+
 CodeXXX 是一个开源、本地优先、可自部署的代码分析与修改 Agent。它通过网页提供代码理解、问题定位、上下文检索、计划执行、补丁审阅和验证能力，适合个人开发者、初学者、团队开发者以及希望学习 Agent 工程的开发者。
 
 项目的首要目标不是建设一个必须在线使用的 SaaS，而是让任何人都能把代码拉到自己的电脑上运行、阅读和排查。代码、SQLite 数据库和模型密钥默认保留在本机；只有用户明确选择的上下文才会发送给配置的模型服务商。
